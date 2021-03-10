@@ -112,3 +112,12 @@ footer {
   display: block;
 }
 
+img {
+  height: 20px;
+  width: auto;
+}
+
+img:hover {
+  transform: scale(0.9);
+  transition: ease in out .8s;
+}
